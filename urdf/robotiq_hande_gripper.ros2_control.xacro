@@ -10,6 +10,13 @@
         <xacro:unless value="${use_fake_hardware}">
           <plugin>robotiq_hande_driver/RobotiqHandeHardwareInterface</plugin>
           <param name="tty">${tty}</param>
+          <param name="grip_pos_min">0.0</param>
+          <param name="grip_pos_max">0.025</param>
+          <param name="baudrate">115200</param>
+          <param name="parity">N</param>
+          <param name="data_bits">8</param>
+          <param name="stop_bit">1</param>
+          <param name="slave_id">9</param>
         </xacro:unless>
       </hardware>
 
