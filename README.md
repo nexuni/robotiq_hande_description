@@ -1,5 +1,8 @@
 # robotiq_hande_description
-### For the driver, check the [robotiq_hande_driver](https://github.com/AGH-CEAI/robotiq_hande_driver/) package from AGH UST.
+**DEPRECATED**: For the driver, check the [robotiq_hande_driver](https://github.com/AGH-CEAI/robotiq_hande_driver/) package from AGH UST. -> This package will cause the RTDE overflow error: `Pipeline producer overflowed! <RTDE Data Pipeline>`.
+
+Use the [ros2_robotiq_gripper/robotiq_driver](https://github.com/nexuni/ros2_robotiq_gripper/tree/hande-dev) package instead.
+
 ---
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
